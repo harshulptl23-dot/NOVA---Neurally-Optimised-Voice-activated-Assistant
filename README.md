@@ -17,6 +17,7 @@
 - [Testing & Evaluation Benchmarks](#-testing--evaluation-benchmarks)
 - [Known Limitations](#-known-limitations)
 - [Aspirational Roadmap (Future Development)](#-aspirational-roadmap-future-development)
+- [Contributing](#-contributing)
 
 ---
 
@@ -134,3 +135,15 @@ Now that the core coursework prototype is complete, future updates to NOVA aim t
 - [ ] **Desktop GUI & Visual Previews:** Build a lightweight front-end (using `PyQt`, `Tkinter`, or `Electron`) featuring pulsing audio visualizers, live transcription captions, and on-screen file previews.
 - [ ] **Advanced ML Intent Classification:** Upgrade regex/dictionary parsing to **spaCy** (`textcat`) or lightweight transformer models for richer conversational context and Named Entity Recognition (NER).
 - [ ] **Multi-Threaded Concurrency & Productivity Suite:** Implement Python `threading` to support background timers, spoken reminders, voice-activated note-taking, and calendar integration.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! If you'd like to improve NOVA:
+1. Fork the project.
+2. Create a feature branch (`git checkout -b feature/OfflineWhisper`).
+3. Commit your changes (`git commit -m 'Add offline Whisper STT support'`).
+4. Push to your branch (`git push origin feature/OfflineWhisper`).
+5. Open a **Pull Request** so we can review and merge it!
+
+If you use NOVA as a base for your own project, please leave a link back to this repository.
+
