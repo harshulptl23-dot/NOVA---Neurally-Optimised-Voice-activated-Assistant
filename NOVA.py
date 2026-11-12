@@ -12,7 +12,7 @@ import pyaudio                    # pip install pyaudio
 
 
 # The standard sample rate (Hz) for speech recognition audio streams.
-sampleRate = 500
+sampleRate = 16000
 # The maximum duration (in seconds) NOVA will wait for the wake word.
 phraseTimeLimitWake = 2
 # The maximum duration (in seconds) NOVA will wait for a command after waking up.
